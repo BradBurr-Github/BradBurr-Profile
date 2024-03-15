@@ -30,16 +30,6 @@ header {
     background-color: #fff;
   }
 
-/* Image Background */
-/* .pageImage {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-} */
-
 aside {
     flex: 35%;
     background-color: #b9c6ae;
@@ -59,7 +49,7 @@ aside {
 .footer {
     height: 10vh;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
     text-align: center;
 }
 
