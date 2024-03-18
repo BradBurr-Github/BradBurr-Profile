@@ -10,37 +10,91 @@
   <body>
     <!-- Header -->
     <header>
+      <figure>
         <img class="photo" src="./assets/images/myPicture.jpg" alt="My Picture">
+        <figcaption class="fig-caption">Brad Burr</figcaption>
+      </figure>
     </header>
 
-    <!-- Body -->
+    <!-- Navigation Bar -->
+    <nav>
+      <section>
+        <a href="">About Me</a>     |
+        <a href="">My Deployed Websites</a>     |
+        <a href="#go-to-footer">Contact Me</a>
+      </section>
+    </nav>
+
+    <!-- main  -->
     <main>
+        <!-- Aside Column on LEFT -->
         <aside>
-            <h2>Bradley S. Burr</h2>
-            <h3>Software Engineer</h3>
-            <ol>
-                <p>Learning to Program on the Web</p>
-                <p>Taking a 6-month Coding Bootcamp Course</p>
-                <p>Very Strong in Mathematics</p>
-                <br>
-                <p>Download Resume:</p>
+            <h2>About Me</h2>
+            <hr>
+            <div>
+              <h3>Senior Software Engineer</h3>
+              <div id="hs1">at Henry Schein One (since 1999)</div>
+            </div>
+            <br>
+            <h3>Core Skills</h3>
+            <ul class="skills">
+              <li>Programming in C, C++, C#</li>
+              <li>Extensive experience with SQL Server</li>
+              <li>Very strong in Mathematics</li>
+              <li>Excellent interpersonal skills</li>
+            </ul>
+            <br>
+            <h3>New Skills</h3>
+            <ul class="skills">
+              <li>Taking a 6-month Coding Bootcamp Course</li>
+              <li>Learning HTML, CSS and Javascript</li>
+              <li>Learning to Program on the Web</li>
+            </ul>
+            <br>
+            <h3>Contact Information</h3>
+            <p class="contact-info">Call/Text: (801) 555-5555</p>
+            <p class="contact-info">Location: Riverton, UT 84096</p>
+            <p class="contact-info">Email: bradburr@gmail.com</p>
+            <br>
+            <p>Download Resume:</p>
                 <a href="./assets/images/Resume.jpg" download="Resume">
-                    <img src="./assets/images/resume-small.jpg" alt="W3Schools">
-                  </a> 
-            </ol>
+                  <img src="./assets/images/resume-small.jpg" alt="Download Link to my Resume">
+                </a> 
           </aside>
 
+          <!-- Deployed Websites Section on LEFT -->
           <section>
-            <h2>My First Deployed Webiste</h2>
-            <a href="https://bradburr-github.github.io/SEO-Website/Develop/index.html" target="_blank">Website</a>
+            <h2>My Deployed Websites</h2>
+            <div class="deployed">
+              <a href="https://bradburr-github.github.io/SEO-Website/index.html" target="_blank">
+                <img class="img-fill" src="./assets/images/horiseon.png" alt="Link to my Horiseon Deploy">
+              </a>
+            </div>
+            <div class="deployed">
+              <a href="https://bradburr-github.github.io/Rock-Paper-Scissors-Game/index.html" target="_blank">
+                <img class="img-fill" src="./assets/images/rps.png" alt="Link to my RPS Deploy">
+              </a>
+            </div>
+          </div>
+          <div class="deployed">
+            <a href="https://www.espn.com" target="_blank">
+              <img class="img-fill" src="./assets/images/espn.png" alt="Link to ESPN Website">
+            </a>
+          </div>
+          <div class="deployed">
+            <a href="https://www.w3schools.com" target="_blank">
+              <img class="img-fill" src="./assets/images/w3.png" alt="Link to W3Schools Website">
+            </a>
+          </div>
           </section>
     </main>
 
     <!-- Footer -->
-    <footer>
-        <h3>
-            <a href="mailto:example@example.com">Send email</a>
-        </h3>
+    <footer class="go-to-footer">
+        <h5>
+            <a href="mailto:example@example.com">Email Me</a>
+            <p>© 2024 Student Bio Productions</p>
+        </h5>
       </footer>
   </body>
 

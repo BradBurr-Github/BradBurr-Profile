@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 /* Page Background */
@@ -11,49 +12,123 @@ body {
 header {
     padding: 20px;
     display: flex;
-    height: 30vh;
+    height: 330px;    
     flex-direction: column;
     align-items: center;
     text-align: center;
     background: #13293d;
     color: #fff;
-  }
-
-  main {
-    display: flex;
-  }
-
-  .photo{
-    border-radius: 10px;
-    width: 200px;
-    border: 2px solid #bfbfbf;
-    background-color: #fff;
-  }
-
-aside {
-    flex: 35%;
-    background-color: #b9c6ae;
-    padding: 20px;
-    height: 60vh;
-    flex-wrap: wrap;
-  }
-
-  section {
-    flex: 65%;
-    height: 60vh;
-    background-color: #fff;
-    padding: 20px;
-  }
-
-/* Footer Details */
-.footer {
-    height: 10vh;
-    clear: both;
-    font-family: 'Trebuchet MS', Arial, sans-serif;
-    text-align: center;
 }
 
-.footer h2 {
-    font-size: 20px;
-    text-align: center;
+/* My Photo */
+.photo {
+  border-radius: 10px;
+  width: 200px;
+  display: block;
+  border: 2px solid #bfbfbf;
+  background-color: #fff;
+}
+
+/* Header Picture Figure Caption settings */
+.fig-caption {
+  font-size: 42px;
+  margin-top: 20px;
+  }
+
+/* Navigation Bar */
+nav {
+  height: 50px;
+  color: black;
+  background-color: rgb(155, 14, 57);
+  font-size: 14px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+}
+
+/* Aside Items on LEFT */
+aside {
+    flex: 35%;
+    height: 1000px;
+    background-color: #b9c6ae;
+    flex-wrap: wrap;
+}
+
+hr {
+  border-color: black;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+aside h2 {
+  text-align: center;
+}
+
+aside h3 {
+  color:crimson;
+  text-align: center;
+}
+
+/* Company Text */
+#hs1 {
+  font-style: italic;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* skills Class */
+.skills {
+  font-size: 16px;
+  margin-left: 50px;
+}
+
+/* contact info class */
+.contact-info {
+  list-style-type: none;
+  text-align: center;
+}
+
+/* Deployed Websites Section */
+section {
+  flex: 65%;
+  height: 1000px;
+  background-color: #537ea1;
+}
+
+section h2 {
+  text-align: center;
+}
+
+/* Deploy Boxes */
+.deployed {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 15px solid black;
+}
+
+.img-fill {
+  width: 100%;
+  height: 100%;
+}
+
+/* Footer Details */
+footer {
+  height: 50px;
+}
+
+footer h5 {
+  font-size: 14px;
+  text-align: center;
+}
+
+.go-to-footer {
+  font-style: italic;
 }
